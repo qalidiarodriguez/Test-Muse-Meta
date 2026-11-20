@@ -59,3 +59,29 @@ Add only this Phase 3 section to TEST-MUSA.md. Do not change any existing conten
 ### Status
 
 Passed — file modification verified in GitHub.
+
+---
+
+## Phase 4 — Cross-Application Automation
+
+Test Case ID: TC-008
+Date: 2026-11-19
+
+### Test
+
+Read-only checks from a mobile device, in three connected apps, without sending or publishing anything.
+
+### Results
+
+- Google Calendar: Week Nov 20-27, 2026 has 0 events. Hands-On Testing Conference 2026 | English Edition confirmed Dec 3, 08:00 to Dec 4, 18:00 America/Mexico_City, LinkedIn event link.
+- Instagram @pam.stem: Creator account, public, Mexico, not verified. 1,004 followers, 2,643 following, 157 posts. Bio: QA Engineer, STEM y Tech con empatia, @mujeresstem_enyucatan, @pamsteam.arte, CoFounder @382pizza.
+- Gmail: 5 most recent unread messages listed, about 201 unread in total (estimate). Latest: Sebastian Salazar Ramirez accepted a LinkedIn invitation, Luis Alfonso Rivera Adame and Javier Lopez (QA Analyst, Teleperformance) sent connection requests, Postman newsletter, and Sofia Corona Padilla (Luxoft) InMail from Nov 19.
+
+### Verification
+
+- All three reads returned live data from the connected accounts.
+- No email was sent, no calendar event was created, and nothing was published on Instagram.
+
+### Status
+
+Passed — cross-application reading verified in GitHub, Calendar, Instagram and Gmail.
