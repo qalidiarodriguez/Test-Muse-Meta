@@ -83,3 +83,9 @@ Don't just trust AI. Test it.
 ---
 
 Created by Pam | QA Engineer | AI & Automation Explorer
+---
+
+## 📄 Results and reports
+
+- [TEST-MUSA.md](TEST-MUSA.md) — Phases 1–4: repository reading (5/5), file creation, file modification, and cross-application automation. All verified by re-reading from GitHub.
+- [REPORT-BROWSER-VACANTES.md](REPORT-BROWSER-VACANTES.md) — TC-009: Browser demo, QA Junior vacancy search in Mérida (National Soft, Tester Automatización Jr), with YouTube Short evidence. Passed with human help for the captcha.
