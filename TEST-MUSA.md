@@ -38,3 +38,24 @@ Passed — file creation verified in GitHub.
 
 Created as part of the Muse + GitHub QA experiment by Pam.
 Don't just trust AI. Test it.
+
+---
+
+## Phase 3 — File Modification
+
+Test Case ID: TC-007
+Date: 2026-11-19
+
+### Requested change
+
+Add only this Phase 3 section to TEST-MUSA.md. Do not change any existing content.
+
+### Verification
+
+- Original Phase 2 content preserved unchanged.
+- Only this Phase 3 section was added.
+- Final version confirmed by re-reading the file from GitHub.
+
+### Status
+
+Passed — file modification verified in GitHub.
