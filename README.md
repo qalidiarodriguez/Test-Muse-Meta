@@ -1,48 +1,85 @@
-🧪 AI Assistant + GitHub | Mobile Automation Lab
+🧪 Muse + GitHub | AI Mobile Integration Testing
 
-Welcome to my experimental repository!
+An experimental QA project by Pam.
 
-I'm a QA Engineer exploring AI-powered workflows from a mobile device. This repository is my personal testing environment to experiment with Meta Muse and its ability to connect with GitHub and other applications.
+📌 About this project
 
-The goal is to discover what an AI assistant can actually do, how reliably it performs tasks, and where human supervision is still necessary.
+This repository is my testing environment to explore Meta Muse's ability to interact with GitHub and other applications directly from a mobile device.
 
-🎯 Project Objectives
+As a QA Engineer, I want to evaluate how AI assistants access, read, modify, and manage digital resources while maintaining human supervision and control.
 
-- Test AI assistant connectivity with GitHub and other applications.
-- Explore repository navigation and file reading.
-- Test code search and information retrieval.
-- Experiment with creating, editing, and updating repository files.
-- Explore mobile-first automation workflows.
-- Evaluate accuracy, reliability, permissions, and human approval mechanisms.
+The main focus is not just whether an AI assistant can perform a task, but whether it performs it correctly, reliably, and safely.
 
-🔍 QA Testing Approach
+🎯 Testing Objectives
 
-I'll approach each experiment as a QA Engineer, documenting:
+1. Evaluate GitHub connectivity through Meta Muse.
+2. Verify repository and file reading capabilities.
+3. Test file creation and modification.
+4. Evaluate permission boundaries and approval workflows.
+5. Explore mobile-first automation across different applications.
+6. Document limitations, unexpected behaviors, and potential defects.
 
-- Expected result: What should the AI assistant do?
-- Actual result: What happened during execution?
-- Observations: What worked, what failed, and what was unexpected?
-- Limitations: What can or cannot be automated?
-- Human intervention: When is user approval or manual action required?
+🧪 Test Scenarios
 
-🔐 Safety First
+Phase 1 — Repository Reading
 
-This repository is an isolated testing environment.
+Status: 5/5 reported as successful by Muse.
 
-- No production projects or portfolio repositories are involved.
-- Changes must be reviewed and approved before execution.
-- Experiments should avoid exposing credentials, tokens, or sensitive information.
-- Every action should be evaluated before trusting its outcome.
+Repositories included in the experiment:
 
-🧠 Why This Experiment?
+ID| Repository| Test objective
+TC-001| lidipamelarodriguezvigueras.github.io| Read personal website repository
+TC-002| qa-portfolio| Read QA portfolio content
+TC-003| qa-project-Urban-Routes-es| Read UI automation project
+TC-004| qa-project-Urban-Grocers-app-es| Read API testing project
+TC-005| postman-api-tests-tripleten| Read Postman collection
 
-AI assistants are evolving beyond answering questions. They can increasingly interact with tools, applications, and digital environments.
+Phase 2 — File Creation
 
-I want to understand these capabilities through hands-on experimentation, combining my QA mindset with curiosity about AI, automation, and mobile technology.
+- Request creation of a Markdown file.
+- Verify file name, location, and content.
+- Check whether changes require user approval.
+- Confirm that the file actually exists in GitHub.
 
-The goal isn't to assume AI works. The goal is to test it.
+Phase 3 — File Modification
+
+- Request an update to an existing file.
+- Verify that only the requested content changes.
+- Check whether the original content is preserved.
+- Confirm the final version in GitHub.
+
+Phase 4 — Cross-Application Automation
+
+Explore Muse's ability to interact with other connected applications from a mobile device.
+
+🔍 QA Methodology
+
+Each test will document:
+
+- Test Case ID
+- Preconditions
+- Test Steps
+- Expected Result
+- Actual Result
+- Evidence
+- Status: Passed / Failed / Blocked / Not Tested
+
+A task is not considered passed just because the AI reports success. The result must be independently verified.
+
+🔐 Security & Scope
+
+- Use a dedicated testing repository for modifications.
+- Keep portfolio repositories protected from experimental changes.
+- Never expose access tokens, passwords, or private credentials.
+- Review and approve changes before they are committed.
+- Verify actual GitHub changes rather than relying exclusively on AI responses.
+
+💡 Project Philosophy
+
+AI can assist, automate, and interact with digital tools, but reliability must be tested.
+
+Don't just trust AI. Test it.
 
 ---
 
-Created as a personal learning and experimentation project.
-By Pam | QA Engineer | AI & Automation Explorer
+Created by Pam | QA Engineer | AI & Automation Explorer
